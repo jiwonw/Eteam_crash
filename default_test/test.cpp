@@ -1,7 +1,7 @@
 #include "pch.h"
 #include "../default/cal.cpp"
 
-TEST(TestCaseName, TestName) {
-  EXPECT_EQ(1, 1);
-  EXPECT_TRUE(true);
+TEST(TestCaseName, MinusTest) {
+	Cal cal;
+	EXPECT_EQ(cal.getMinus(3, 1), 2);
 }
