@@ -6,7 +6,12 @@ TEST(TestCaseName, Zegop) {
 	EXPECT_EQ(9, cal.Zegop(3));
 }
 
- 
+TEST(TestCaseName, getSumSum) {
+	Cal c;
+	int retult = c.getSumSum(1, 2, 3);
+	EXPECT_EQ(retult, 6);
+}
+
 TEST(TestCaseName, getGop) {
 	auto cal = Cal{};
 
