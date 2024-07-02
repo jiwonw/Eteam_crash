@@ -2,6 +2,7 @@
 #include "../default/cal.cpp"
 
 TEST(TestCaseName, TestName) {
-  EXPECT_EQ(1, 1);
-  EXPECT_TRUE(true);
+	Cal cal;	
+	EXPECT_EQ(9, cal.Zegop(3));
 }
+
