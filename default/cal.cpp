@@ -6,7 +6,11 @@ public:
 		return (a + b + c);
   }
 
-	int getGop(int a, int b) {
+	int Zegop(int a) {
+		return a * a;
+  }
+
+  int getGop(int a, int b) {
 		return a * b;
 	}
 };

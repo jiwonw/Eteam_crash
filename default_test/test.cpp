@@ -1,9 +1,9 @@
 #include "pch.h"
 #include "../default/cal.cpp"
 
-TEST(TestCaseName, TestName) {
-  EXPECT_EQ(1, 1);
-  EXPECT_TRUE(true);
+TEST(TestCaseName, Zegop) {
+	Cal cal;	
+	EXPECT_EQ(9, cal.Zegop(3));
 }
 
 TEST(TestCaseName, getSumSum) {
